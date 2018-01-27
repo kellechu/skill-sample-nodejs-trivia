@@ -79,7 +79,7 @@ module.exports = {
             ]
         },
         {
-            'Which science term is defined as a small particle of matter?': [
+            'Which science term is defined as the basic building blok of matter?': [
                 'Atom',
                 'Molecule',
                 'Mineral',
@@ -303,7 +303,7 @@ module.exports = {
             ]
         },
         {
-            'What is data collected during invesigations and the apparent trends in that data?': [
+            'What is data collected during investigations and the apparent trends in that data?': [
                 'Evidence',
                 'Trials',
                 'Variables',
@@ -322,7 +322,7 @@ module.exports = {
             'Which of the following is not an expression of density?': [
                 'Dividing the volume of an object by its mass',
                 'Dividing the mass of an object by the volume',
-                'The ratio of the mass and volume of a substance',
+                'The relationship between the mass and volume of a substance',
                 'The amount of matter in an given amount of space',
             ]
         },
@@ -391,45 +391,81 @@ module.exports = {
             ]
         },
         {
-            'Which science term is defined as reducing size by squeezing': [
-                'Compression',
-                'Squish',
-                'Smush',
-                'Pinch',
+            'What instrument is used by scientists to measure mass?': [
+                'Balance',
+                'Scale',
+                'Litmus paper',
+                'Spectrometer',
             ]
         },
         {
-            'Which science term is defined as reducing size by squeezing': [
-                'Compression',
-                'Squish',
-                'Smush',
-                'Pinch',
+            'What is not considered a characteristic of a theory?': [
+                'A claim that suggests what to do in certain situations',
+                'A big idea in science',
+                'Usually developed over a long time',
+                'Using evidence gained through observations and experimental data',
             ]
         },
         {
-            'Which science term is defined as reducing size by squeezing': [
-                'Compression',
-                'Squish',
-                'Smush',
-                'Pinch',
+            'Which science term is defined as giving credit to any scientists or engineers that anyone got their ideas from?': [
+                'Cite',
+                'Collaborate',
+                'Plan Briefing',
+                'Recommendation',
             ]
         },
         {
-            'Which science term is defined as reducing size by squeezing': [
+            'What is the upward force exerted by any fluid upon a body placed in it?': [
+                'Buoyant Force',
+                'Gravity',
                 'Compression',
-                'Squish',
-                'Smush',
-                'Pinch',
+                'Air Resistance',
             ]
         },
         {
-            'Which science term is defined as reducing size by squeezing': [
-                'Compression',
-                'Squish',
-                'Smush',
-                'Pinch',
+            'What is not the proper way to display data in a bar graph?': [
+                'As a X above its value',
+                'As vertical bars',
+                'As horizontal bars',
+                'As negative values',
             ]
         },
+        {
+            'What is the definition of teamwork where scientists combine ideas together?': [
+                'Collaborate',
+                'Plan Briefing',
+                'Science Knowledge',
+                'Recommendation',
+            ]
+        },
+        {
+            'Which of the following does not apply to Scientific Knowledge?': [
+                'Goals that must be satisfied to be able to successfully achieve a challenge',
+                'A discussion that helps one understand why a claim is true',
+                'Knowledge about how things work gathered from reading',
+                'Knoweledge about how things work gathered from research',
+            ]
+        },
+        {
+            'What is the definition of Recommendation?': [
+                'A claim that suggests what to do in certain situations',
+                'Goals that must be satisfied to be able to successfully achieve a challenge',
+                'Factors that limit how you can solve a problem',
+                'A conclusion that one has reached from a set of investigations',
+            ]
+        },
+        {
+            'What is the opportunity during the design process to share plans and get advice from others?': [
+                'Plan Briefing',
+                'Messing About',
+                'Recommendation',
+                'Cite',
+            ]
+        },
+
+
+    ]
+},
 
 
 
