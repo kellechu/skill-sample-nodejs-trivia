@@ -5,7 +5,7 @@
 /**
  * This sample demonstrates a simple skill built with the Amazon Alexa Skills
  * nodejs skill development kit.
- * This sample supports en-US lauguage.
+ * This sample supports en-US language.
  * The Intent Schema, Custom Slots and Sample Utterances for this skill, as well
  * as testing instructions are located at https://github.com/alexa/skill-sample-nodejs-trivia
  **/
@@ -16,7 +16,7 @@ const Alexa = require('alexa-sdk');
 const questions = require('./question');
 
 const ANSWER_COUNT = 4; // The number of possible answers per trivia question.
-const GAME_LENGTH = 5;  // The number of questions per trivia game.
+const GAME_LENGTH = 10;  // The number of questions per trivia game.
 const GAME_STATES = {
     TRIVIA: "_TRIVIAMODE", // Asking trivia questions.
     START: "_STARTMODE", // Entry point, start the game.
@@ -32,7 +32,7 @@ const languageString = {
     "en": {
         "translation": {
             "QUESTIONS": questions["QUESTIONS_EN_US"],
-            "GAME_NAME": "Dunkin Science Trivia", // Be sure to change this for your skill.
+            "GAME_NAME": "Mr. Dunkin's science trivia", // Be sure to change this for your skill.
             "HELP_MESSAGE": "I will ask you %s multiple choice questions. Respond with the number of the answer. " +
                 "For example, say one, two, three, or four. To start a new game at any time, say, start game. ",
             "REPEAT_QUESTION_MESSAGE": "To repeat the last question, say, repeat. ",
@@ -59,7 +59,7 @@ const languageString = {
     "en-US": {
         "translation": {
             "QUESTIONS": questions["QUESTIONS_EN_US"],
-            "GAME_NAME": "Dunkin Science Trivia", // Be sure to change this for your skill.
+            "GAME_NAME": "Mr. Dunkin's science trivia", // Be sure to change this for your skill.
         },
     },
 };
